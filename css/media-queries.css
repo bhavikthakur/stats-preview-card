@@ -1,0 +1,135 @@
+/* -------------------MEDIA QUERIES----------------- */
+
+
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .hero-img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img-wrapper {
+        flex: 1;
+
+    }
+
+    .info-wrapper {
+
+        flex: 1;
+
+    }
+
+    .data-container-wrapper {
+        flex-direction: row;
+
+    }
+
+}
+
+@media (min-width:700px) {
+
+    .stats-wrapper {
+        flex-direction: row;
+        align-items: stretch;
+        max-width: 650px;
+        padding: 0;
+    }
+
+    .stats-body {
+        margin-top: 1.5em;
+    }
+
+    .img-wrapper {
+        flex: 1;
+    }
+
+    .hero-img {
+        border-radius: 0 0.5em 0.5em 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .info-wrapper {
+        order: 0;
+        padding: 3em;
+        border-radius: 0.3em 0 0em 0.3em;
+        flex: 1;
+
+    }
+
+    .data-container-wrapper {
+        flex-direction: row;
+
+    }
+
+    .data-info-wrapper {
+
+        text-align: left;
+
+
+    }
+}
+
+@media (min-width:1000px) {
+
+    .stats-wrapper {
+        flex-direction: row;
+        align-items: stretch;
+        max-width: 950px;
+        padding: 0;
+
+    }
+
+    .stats-title {
+        font-size: 2.2rem;
+    }
+
+    .stats-body {
+        font-size: 0.9rem;
+        margin-top: 1.5em;
+    }
+
+
+
+
+    .stats-title,
+    .stats-body,
+    .data-info-wrapper {
+        text-align: left;
+    }
+
+    .img-wrapper {
+        flex: 1;
+    }
+
+    .hero-img {
+        border-radius: 0 0.3em 0.3em 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .info-wrapper {
+        order: 0;
+        padding: 3.5em;
+        border-radius: 0.3em 0 0em 0.3em;
+        flex: 1;
+        align-items: flex-start;
+    }
+
+    .data-container-wrapper {
+        flex-direction: row;
+        margin-top: 4em;
+
+    }
+
+    .data-title {
+        font-size: 1.2rem;
+    }
+
+    .data-body {
+        font-size: 0.8rem;
+    }
+}
